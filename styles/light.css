@@ -37,7 +37,7 @@
 .page.theme_light .header__title {
   color: var(--title-color);
   text-shadow: 4px 4px 0px var(--accent-color);
-  @media (min-width: 1024px){
+  @media (min-width: 1024px) {
     text-shadow: 4px 4px 0px #FF0070;
   }
 }
@@ -67,7 +67,7 @@
 .page.theme_light .footer__title {
   color: var(--title-color);
   text-shadow: 2px 2px 0px var(--accent-color);
-  @media (min-width: 1024px){
+  @media (min-width: 1024px) {
     text-shadow: 2px 2px 0px #FF0070;
   }
 }
@@ -107,7 +107,7 @@
   .header__title {
     color: var(--title-color);
     text-shadow: 4px 4px 0px var(--accent-color);
-    @media (min-width: 1024px){
+    @media (min-width: 1024px) {
       text-shadow: 4px 4px 0px #FF0070;
     }
   }
@@ -137,7 +137,7 @@
   .footer__title {
     color: var(--title-color);
     text-shadow: 2px 2px 0px var(--accent-color);
-    @media (min-width: 1024px){
+    @media (min-width: 1024px) {
       text-shadow: 2px 2px 0px #FF0070;
     }
   }
