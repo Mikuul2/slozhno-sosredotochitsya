@@ -37,6 +37,9 @@
 .page.theme_light .header__title {
   color: var(--title-color);
   text-shadow: 4px 4px 0px var(--accent-color);
+  @media (min-width: 1024px){
+    text-shadow: 4px 4px 0px #FF0070;
+  }
 }
 
 .page.theme_light .section__heading {
@@ -64,6 +67,9 @@
 .page.theme_light .footer__title {
   color: var(--title-color);
   text-shadow: 2px 2px 0px var(--accent-color);
+  @media (min-width: 1024px){
+    text-shadow: 2px 2px 0px #FF0070;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -71,6 +77,7 @@
     --accent-color: #FF8DCB;
     --title-color: #FFC2E6;
     --text-color: #353430;
+    --shadow-color: #FFF1F7;
   }
 
   .page {
@@ -99,7 +106,10 @@
   
   .header__title {
     color: var(--title-color);
-    text-shadow: 4px 4px 0px var(--shadow-color);
+    text-shadow: 4px 4px 0px var(--accent-color);
+    @media (min-width: 1024px){
+      text-shadow: 4px 4px 0px #FF0070;
+    }
   }
   
   .section__heading {
@@ -126,6 +136,9 @@
   
   .footer__title {
     color: var(--title-color);
-    text-shadow: 2px 2px 0px var(--shadow-color);
+    text-shadow: 2px 2px 0px var(--accent-color);
+    @media (min-width: 1024px){
+      text-shadow: 2px 2px 0px #FF0070;
+    }
   }
 }

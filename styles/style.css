@@ -9,6 +9,9 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
   padding: 10px;
   /* laptop */
@@ -180,10 +183,17 @@
   }
 }
 
-.section-direction {
+.content__section.reasons,
+.content__section.gallery {
   /* laptop and desktop */
   @media (min-width: 768px) {
     flex-direction: column;
+  }
+}
+
+.reasons .section__list {
+  @media (min-width: 1024px) {
+    flex-direction: row;
   }
 }
 
