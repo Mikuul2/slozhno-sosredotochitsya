@@ -2,3 +2,16 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  /* colors */
+  --accent-color: #ff0070;
+  --text-color: #F1B2CE;
+  --title-color: #DB00FF;
+  --list-color: #000028;
+  --shadow-color: #ff0070;
+  /* font-styles */
+  --main-font: inherit;
+  --main-style-font: inherit;
+  --text-wight-regular: 400;
+  --text-wight-bold: 700;
+}
