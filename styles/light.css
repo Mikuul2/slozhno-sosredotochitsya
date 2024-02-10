@@ -12,7 +12,7 @@
 
 .page.theme_light {
   background-image: url(../images/cover-image-light.png);
-  background-color: var(--title-color);
+  background-color: #FFF1F7;
 }
 
 .page.theme_light .header__theme-menu-button {
@@ -43,7 +43,7 @@
   color: var(--text-color);
 }
 
-.page.theme_light .title-decor  {
+.page.theme_light .title-decor {
   background-color: var(--accent-color);
   color: var(--text-color);
 }
@@ -76,7 +76,7 @@
 
   .page {
     background-image: url(../images/cover-image-light.png);
-    background-color: var(--title-color);
+    background-color: #FFF1F7;
   }
   
   .header__theme-menu-button {
@@ -107,7 +107,7 @@
     color: var(--text-color);
   }
   
-  .title-decor  {
+  .title-decor {
     background-color: var(--accent-color);
     color: var(--text-color);
   }
