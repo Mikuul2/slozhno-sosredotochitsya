@@ -154,7 +154,7 @@
   /* desktop */
   @media (min-width: 1024px) {
     max-inline-size: 491px;
-    margin-block-end: 109px;
+    margin-block-end: 89px;
   }
 }
 
@@ -252,14 +252,14 @@
 }
 
 .gallery-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 142px 355px 237px 355px 237px;
   gap: 10px;
   width: 100%;
   /* laptop */
   @media (min-width: 768px) {
     gap: 20px;
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 192px 230px 318px;
   }
