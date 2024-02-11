@@ -60,8 +60,8 @@
   display: block;
   inline-size: 25px;
   block-size: 25px;
-  border-inline-end: solid 1px var(--accent-color);
-  border-block-start: solid 1px var(--accent-color);
+  border-inline-end: solid 1px var(--element-decor-color);
+  border-block-start: solid 1px var(--element-decor-color);
 }
 
 @media (min-width: 768px) {
@@ -79,8 +79,8 @@
   bottom: 10px;
   inline-size: 25px;
   block-size: 25px;
-  border-inline-start: solid 1px var(--accent-color);
-  border-block-end: solid 1px var(--accent-color);
+  border-inline-start: solid 1px var(--element-decor-color);
+  border-block-end: solid 1px var(--element-decor-color);
 }
 
 @media (min-width: 768px) {
@@ -160,6 +160,14 @@
   font-size: var(--main-font);
   line-height: 130%;
   max-inline-size: 355px;
+  /* laptop */
+  @media (min-width: 768px) {
+    max-inline-size: 364px;
+  }
+  /* desktop */
+  @media (min-width: 1024px) {
+    max-inline-size: 491px;
+  }
 }
 
 .content {
@@ -201,11 +209,11 @@
   max-inline-size: 355px;
   /* laptop */
   @media (min-width: 768px) {
-    max-inline-size: 236px;
+    min-inline-size: 236px;
   }
   /* desktop */
   @media (min-width: 1024px) {
-    max-inline-size: 315px;
+    min-inline-size: 315px;
   }
 }
 
