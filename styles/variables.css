@@ -10,8 +10,14 @@
   --list-color: #000028;
   --shadow-color: #ff0070;
   --shadow-color-big-size: #FF0070;
-  --outline-color: #32312D;
+  --section-title-color: #ff0070;
+  --focus-color: #ff0070;
+  --outline-shadow-color: rgba(255, 0, 112, 0.4);
   --element-decor-color: #ff0070;
+  --text-button-color: #ff0070;
+  /* page-background */
+  --page-background-image: url(../images/cover-image-dark.png);
+  --page-background-color: #000028;
   /* font-styles */
   --main-font: inherit;
   --main-style-font: inherit;

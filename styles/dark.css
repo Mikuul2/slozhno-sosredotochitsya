@@ -4,56 +4,19 @@
   переключая тему
 */
 :root .theme_dark {
+  /* colors */
   --accent-color: #ff0070;
   --text-color: #F1B2CE;
   --title-color: #DB00FF;
   --list-color: #000028;
+  --shadow-color: #ff0070;
+  --shadow-color-big-size: #FF0070;
+  --section-title-color: #ff0070;
+  --focus-color: #ff0070;
+  --outline-shadow-color: rgba(255, 0, 112, 0.4);
   --element-decor-color: #ff0070;
-}
-
-.page.theme_dark {
-  background-image: url(../images/cover-image-dark.png);
-  background-color: var(--list-color);
-}
-
-.page.theme_dark .header__decor-wrapper::after {
-  display: block;
-}
-
-.page.theme_dark .header__decor-paragraph {
-  display: block;
-}
-
-.page.theme_dark .header__theme-menu-button {
-  color: var(--accent-color);
-}
-
-.page.theme_dark .header__theme-menu-button:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.4);
-}
-
-.page.theme_dark .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
-}
-
-.page.theme_dark .header__theme-menu-button_active {
-  outline: 1px solid var(--accent-color);
-}
-
-.page.theme_dark .header__title {
-  color: var(--title-color);
-}
-
-.page.theme_dark .section__heading {
-  color: var(--accent-color);
-}
-
-.page.theme_dark .title-decor {
-  background-color: var(--accent-color);
-  color: var(--list-color);
-}
-
-.page.theme_dark .footer__title {
-  color: var(--title-color);
-  text-shadow: 2px 2px 0px var(--accent-color);
+  --text-button-color: #ff0070;
+  /* page-background */
+  --page-background-image: url(../images/cover-image-dark.png);
+  --page-background-color: #000028;
 }

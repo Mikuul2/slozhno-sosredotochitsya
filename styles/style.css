@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
-  background-color: var(--list-color);
-  background-image: url(../images/cover-image-dark.png);
+  background-color: var(--page-background-color);
+  background-image: var(--page-background-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -26,7 +26,7 @@
   position: absolute;
   right: 9px;
   margin-inline-end: 28px;
-  color: var(--accent-color);
+  color: var(--text-button-color);
   font-weight: var(--text-wight-regular);
   font-size: var(--main-font);
   line-height: 25px;
@@ -37,6 +37,11 @@
   .header__decor-paragraph {
     right: 19px;
   }
+}
+
+.page.theme_auto .header__decor-paragraph,
+.page.theme_light .header__decor-paragraph {
+  display: none;
 }
 
 .header__decor-paragraph::after {
@@ -116,7 +121,7 @@
 .header__theme-menu-button {
   border: none;
   padding: 3px 13px;
-  color: var(--accent-color);
+  color: var(--text-button-color);
   font-weight: var(--text-wight-regular);
   font-size: var(--main-font);
   line-height: 18px;
@@ -131,17 +136,17 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--shadow-color);
+  outline: 1px solid var(--outline-shadow-color);
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--focus-color);
   padding-block-end: 3px;
   outline: none;
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--focus-color);
   pointer-events: none;
 }
 
@@ -206,7 +211,7 @@
 }
 
 .section__heading {
-  color: var(--accent-color);
+  color: var(--section-title-color);
   font-weight: var(--text-wight-bold);
   font-size: var(--main-font);
   line-height: 23.4px;
