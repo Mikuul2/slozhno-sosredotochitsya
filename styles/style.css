@@ -108,6 +108,7 @@
   /* desktop */
   @media (min-width: 1024px) {
     display: flex;
+    gap: 20px;
     margin: 0;
   }
 }
