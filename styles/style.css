@@ -23,6 +23,7 @@
   /* desktop */
   @media (min-width: 1024px) {
     padding: 20px;
+    padding-inline-start: 0;
     padding-inline-end: 0;
   }
 }
