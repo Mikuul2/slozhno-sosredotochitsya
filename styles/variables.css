@@ -9,9 +9,13 @@
   --title-color: #DB00FF;
   --list-color: #000028;
   --shadow-color: #ff0070;
+  --shadow-color-big-size: #FF0070;
+  --outline-color: #32312D;
   /* font-styles */
   --main-font: inherit;
   --main-style-font: inherit;
   --text-wight-regular: 400;
   --text-wight-bold: 700;
+  --title-size-small: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size-big: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
