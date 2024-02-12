@@ -18,6 +18,8 @@
   /* page-background */
   --page-background-image: url(../images/cover-image-light.png);
   --page-background-color: #FFF1F7;
+  /* decor */
+  --decor-parapraph: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,5 +38,7 @@
     /* page-background */
     --page-background-image: url(../images/cover-image-light.png);
     --page-background-color: #FFF1F7;
+    /* decor */
+    --decor-parapraph: none;
   }
 }

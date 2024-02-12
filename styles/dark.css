@@ -19,4 +19,6 @@
   /* page-background */
   --page-background-image: url(../images/cover-image-dark.png);
   --page-background-color: #000028;
+    /* decor */
+    --decor-parapraph: block;
 }

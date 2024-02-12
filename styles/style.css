@@ -29,6 +29,7 @@
 }
 
 .header__decor-paragraph {
+  display: var(--decor-parapraph);
   position: absolute;
   top: 10px;
   right: 38px;
@@ -44,17 +45,6 @@
     top: 20px;
     right: 48px;
   }
-}
-
-@media (prefers-color-scheme: light) {
-  .page.theme_light .header__decor-paragraph,
-  .page.theme_auto .header__decor-paragraph {
-    display: none;
-  }
-}
-
-.page.theme_light .header__decor-paragraph {
-  display: none;
 }
 
 .header__decor-paragraph::after {
